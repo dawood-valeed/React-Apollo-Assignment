@@ -1,0 +1,23 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: #30363d solid 1px;
+  margin: 0px 10px 3px 10px;
+  border-radius: 4px;
+}
+.icon {
+  padding: 0px 5px 0px 5px;
+}
+h4 {
+  display: flex;
+  flex: 2;
+  margin: 5px;
+  align-items: center;
+}
+
+h5 {
+  font-weight: 400;
+  flex: 1;
+  margin: 5px;
+}

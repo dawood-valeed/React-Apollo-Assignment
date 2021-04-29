@@ -1,0 +1,42 @@
+.filter {
+  display: flex;
+  padding: 10px;
+}
+a {
+  padding-left: 3px;
+}
+.openBtn {
+  cursor: pointer;
+  display: flex;
+  margin: 5px;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 32px;
+  justify-content: space-evenly;
+  color: green;
+  background-color: rgba(0, 128, 0, 0.2);
+  border: 1px solid green;
+}
+.closedBtn {
+  cursor: pointer;
+  display: flex;
+  margin: 5px;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  border-radius: 32px;
+  justify-content: space-evenly;
+  color: red;
+  background-color: rgba(128, 0, 0, 0.2);
+  border: 1px solid red;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+}
+.btnIcon {
+  margin: 5px;
+}
